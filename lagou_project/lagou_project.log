@@ -1,0 +1,118 @@
+2019-04-25 10:25:29 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+2019-04-25 10:30:40 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/ took longer than 180.0 seconds..
+2019-04-25 10:53:23 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/ took longer than 180.0 seconds..
+2019-04-25 10:56:34 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/ took longer than 180.0 seconds..
+2019-04-25 11:03:18 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/ took longer than 180.0 seconds..
+2019-04-25 11:52:38 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-04-25 11:52:38 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/crawler.py", line 81, in crawl
+    start_requests = iter(self.spider.start_requests())
+TypeError: 'NoneType' object is not iterable
+2019-04-25 11:57:13 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/ took longer than 180.0 seconds..
+2019-04-25 12:09:10 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/ took longer than 180.0 seconds..
+2019-04-25 16:01:47 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/zhaopin/Java/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/zhaopin/Java/ took longer than 180.0 seconds..
+2019-04-25 16:35:37 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.lagou.com/zhaopin/Java/>
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/python/failure.py", line 491, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/root/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/scrapy/core/downloader/handlers/http11.py", line 351, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.lagou.com/zhaopin/Java/ took longer than 180.0 seconds..
+2019-04-25 16:41:05 [scrapy.utils.spider] ERROR: More than one spider can handle: <GET https://www.lagou.com/zhaopin/Java/> - lagou_project, lagou_project_index, lagou_project_menu, lagou_project_job_detail

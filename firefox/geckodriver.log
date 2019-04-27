@@ -1,0 +1,36 @@
+1556006702153	geckodriver	INFO	geckodriver 0.19.1
+1556006702194	geckodriver	INFO	Listening on 127.0.0.1:58953
+1556006702477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gFArTDfCarSr"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556006745651	geckodriver	INFO	geckodriver 0.19.1
+1556006745660	geckodriver	INFO	Listening on 127.0.0.1:47053
+1556006746890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.yUH8FwTYfowE"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556006761688	geckodriver	INFO	geckodriver 0.19.1
+1556006761690	geckodriver	INFO	Listening on 127.0.0.1:42501
+1556006762814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-profile" "/tmp/rust_mozprofile.Otkr59U74XAv"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556006831783	geckodriver	INFO	geckodriver 0.19.1
+1556006831800	geckodriver	INFO	Listening on 127.0.0.1:52985
+1556006832961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "--disable-gpu" "-profile" "/tmp/rust_mozprofile.l2Zcfk7aHdQ3"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556007279508	geckodriver	INFO	geckodriver 0.19.1
+1556007279510	geckodriver	INFO	Listening on 127.0.0.1:46051
+1556007280597	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-headless" "--headless" "--disable-gpu" "-profile" "/tmp/rust_mozprofile.El243FcQN9ws"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556007432967	geckodriver	INFO	geckodriver 0.19.1
+1556007432971	geckodriver	INFO	Listening on 127.0.0.1:56557
+1556007434064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xaSmbMhf0MNT"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556007704601	geckodriver	INFO	geckodriver 0.19.1
+1556007704605	geckodriver	INFO	Listening on 127.0.0.1:55443
+1556007705732	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "--headless" "--disable-gpu" "-profile" "/tmp/rust_mozprofile.cH2ECeLwH47c"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556007711263	geckodriver	INFO	geckodriver 0.19.1
+1556007711266	geckodriver	INFO	Listening on 127.0.0.1:33589
+1556007712394	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bG4vpLH4YmbR"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
+1556007757781	geckodriver	INFO	geckodriver 0.19.1
+1556007757813	geckodriver	INFO	Listening on 127.0.0.1:45655
+1556007759010	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox.sh" "-marionette" "-profile" "/tmp/rust_mozprofile.Qv1FKYQyapMz"
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by chilewang.)
